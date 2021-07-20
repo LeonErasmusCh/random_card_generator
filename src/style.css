@@ -1,1 +1,42 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+#card {
+  position: relative;
+  background-color: white;
+  height: 500px;
+  width: 350px;
+}
+
+/*****  Card Hearts  *****/
+.card_heart_left {
+  font-size: 65px;
+  float: left;
+  color: red;
+}
+
+.card_heart_right {
+  font-size: 60px;
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  color: red;
+}
+
+/*****  Number  *****/
+
+#number {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
